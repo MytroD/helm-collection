@@ -27,6 +27,11 @@ jobs:
       - name: Install Helm
         uses: azure/setup-helm@v3
 
+      - name: Generate Helm Chart Documentation
+        run: |
+          CHARTS_DIR="charts"
+          helm-docs --chart-search-root $CHARTS_DIR
+
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0
         with:
