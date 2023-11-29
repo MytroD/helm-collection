@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - master
-
+    paths:
+      - "charts/**"
 jobs:
   release:
     # depending on default permission settings for your org (contents being read-only or read-write for workloads), you will have to add permissions
@@ -30,6 +31,6 @@ jobs:
         uses: helm/chart-releaser-action@v1.6.0
         with:
           charts_dir: charts/*
-          config: cr.yaml
+          charts_repo_url: https://doianov.me/helm-collection/charts/
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
