@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":disableDependencyDashboard", ":enablePreCommit"],
+  "timezone": "Europe/Berlin",
+  "schedule": ["at any time"],
+  "assignees": ["dirsigler"],
+  "reviewers": ["dirsigler"],
+  "enabledManagers": ["helmv3", "pre-commit", "helm-values", "github-actions"],
+  "pre-commit": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchManagers": ["pre-commit", "helmv3", "github-actions"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "all",
+      "automerge": false
+    }
+  ]
+}
