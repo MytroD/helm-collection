@@ -1,2 +1,1 @@
-text
-new text
+rst record
