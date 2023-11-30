@@ -13,6 +13,15 @@ Please be advised that the Helm Chart my not fulfill all needs and is work-in-pr
 [OwnCloud](https://github.com/louislam/uptime-kuma)
 [Uptime-Kuma](https://github.com/louislam/uptime-kuma)
 
+
+
+Original helm charts taken from
+
+[Homarr](https://github.com)
+[Mealie](https://github.com)
+[OwnCloud](https://github.com)
+[Uptime-Kuma](https://github.com/dirsigler/uptime-kuma-helm/tree/main)
+
 ## 🚀 Deployment
 
 [Helm](https://helm.sh) must be installed to use the charts. Please refer to
