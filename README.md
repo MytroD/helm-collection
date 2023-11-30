@@ -1,14 +1,12 @@
-##My Helm Chart collection
+## My Helm Chart collection
 
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://opensource.org/license/gpl-3-0)
 [![Support](https://img.shields.io/badge/Support-Community-yellow)]()
-[![Release](https://github.com/dirsigler/uptime-kuma-helm/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/dirsigler/uptime-kuma-helm/actions/workflows/release.yaml)
-
 
 This is a collecition of the awesome project.
 Please be advised that the Helm Chart my not fulfill all needs and is work-in-progress.
 
-> [!NOTE]
+> [!HOMARR]
 > A simple, yet powerful dashboard for your server.
 > Simplify the management of your server with Homarr - a sleek,
 > modern dashboard that puts all of your apps and services at your fingertips.
@@ -16,28 +14,23 @@ Please be advised that the Helm Chart my not fulfill all needs and is work-in-pr
 > Homarr seamlessly integrates with the apps you've added, providing you with valuable 
 > information and giving you complete control. Installation is a breeze, and Homarr supports a wide range
 > of deployment methods..
+> [Homarr](https://github.com/louislam/uptime-kuma) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/homarr)](https://artifacthub.io/packages/helm/truecharts/homarr)
 
-[Homarr](https://github.com/louislam/uptime-kuma) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/homarr)](https://artifacthub.io/packages/helm/truecharts/homarr)
-
-> [!NOTE]
+> [!MEALIE]
 > Mealie - Recipe Management for The Modern Household
 > Mealie is an intuitive and easy to use recipe management app. 
 > It's designed to make your life easier by being the best recipes management experience on the web
 > and providing you with an easy to use interface to manage your growing collection of recipes.
-[Mealie](https://github.com/louislam/uptime-kuma) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/homarr)](https://artifacthub.io/packages/helm/truecharts/homarr)
+> [Mealie](https://github.com/louislam/uptime-kuma) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/homarr)](https://artifacthub.io/packages/helm/truecharts/homarr)
 
+> [!OWNCLOUD]
+> [OwnCloud](https://github.com/louislam/uptime-kuma)
 
-[OwnCloud](https://github.com/louislam/uptime-kuma)
-[Uptime-Kuma](https://github.com/louislam/uptime-kuma) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/uptime-kuma)](https://artifacthub.io/packages/search?repo=uptime-kuma)
+> [!UPTIME-KUMA]
+>
+> [Uptime-Kuma](https://github.com/louislam/uptime-kuma) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/uptime-kuma)](https://artifacthub.io/packages/search?repo=uptime-kuma)
+> [![Release](https://github.com/dirsigler/uptime-kuma-helm/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/dirsigler/uptime-kuma-helm/actions/workflows/release.yaml)
 
-
-
-Original helm charts taken from
-
-[Homarr](https://github.com)
-[Mealie](https://github.com)
-[OwnCloud](https://github.com)
-[Uptime-Kuma](https://github.com/dirsigler/uptime-kuma-helm/tree/main)
 
 ## 🚀 Deployment
 
