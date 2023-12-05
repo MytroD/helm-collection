@@ -1,26 +1,26 @@
----
 apiVersion: v2
-appVersion: v1.0.0beta-21
-description: Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family.
-name: mealie
-version: 5.1.21
-kubeVersion: ">=1.16.0-0"
-keywords:
-  - grocy
-home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/mealie
-icon: https://raw.githubusercontent.com/hay-kot/mealie/gh-pages/assets/img/favicon.png
-sources:
-  - https://github.com/hay-kot/mealie
-maintainers:
-  - name: bjw-s
-    email: me@bjw-s.dev
-  - name: jonnobrow
-    email: jonathan@jonnobrow.co.uk
+appVersion: "1.0.0"
 dependencies:
   - name: common
-    repository: https://library-charts.k8s-at-home.com
-    version: 4.5.2
+    repository: https://library-charts.truecharts.org
+    version: 14.3.5
+description: Mealie is a self hosted recipe manager and meal planner with a RestAPI backend
+home: https://truecharts.org/charts/stable/mealie
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mealie.png
+keywords:
+  - grocy
+kubeVersion: ">=1.16.0-0"
+maintainers:
+  - email: info@truecharts.org
+    name: TrueCharts
+    url: https://truecharts.org
+name: mealie
+sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mealie
+  - https://github.com/mealie-recipes/mealie
+version: 18.0.2
 annotations:
-  artifacthub.io/changes: |-
-    - kind: changed
-      description: Upgraded `common` chart dependency to version 4.5.2
+  min_scale_version: "22.12.4"
+  max_scale_version: "23.10.1"
+  truecharts.org/category: utilities
+  truecharts.org/SCALE-support: "true"
