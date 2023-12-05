@@ -440,6 +440,46 @@ entries:
     urls:
     - https://github.com/MytroD/helm-collection/releases/download/organizr-15.0.12/organizr-15.0.12.tgz
     version: 15.0.12
+  owncloud:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Update to ownCloud 10.13.2
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 10.13.2
+    created: "2023-12-05T00:09:30.83065813Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.0.14
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.2
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: 949ca2710ae6e8dd9a76cec989efa0d93de9c7c8c2e4c56792f3253bed1e8aaa
+    home: https://github.com/djjudas21/owncloud-helm
+    icon: https://bitnami.com/assets/stacks/owncloud/img/owncloud-stack-220x234.png
+    keywords:
+    - owncloud
+    - storage
+    - http
+    - web
+    - php
+    - dav
+    maintainers:
+    - email: djjudas21@users.noreply.github.com
+      name: djjudas21
+    name: owncloud
+    sources:
+    - https://hub.docker.com/r/owncloud/server
+    - https://owncloud.org/
+    type: application
+    urls:
+    - https://github.com/MytroD/helm-collection/releases/download/owncloud-0.3.7/owncloud-0.3.7.tgz
+    version: 0.3.7
   photoprism:
   - annotations:
       max_scale_version: 23.10.1
@@ -771,4 +811,4 @@ entries:
     urls:
     - https://github.com/MytroD/helm-collection/releases/download/whisparr-6.1.0/whisparr-6.1.0.tgz
     version: 6.1.0
-generated: "2023-11-30T22:37:13.37326444Z"
+generated: "2023-12-05T00:09:30.830676935Z"
